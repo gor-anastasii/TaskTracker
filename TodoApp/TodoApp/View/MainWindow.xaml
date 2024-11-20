@@ -1,0 +1,67 @@
+﻿<Window x:Class="TodoApp.ViewModel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:TodoApp"
+        mc:Ignorable="d"
+               Title="MainWindow" Height="670" Width="1150" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" FontFamily="Lexend" FontSize="20">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="630*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="93*"/>
+                <ColumnDefinition Width="482*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Style="{DynamicResource MenuPanel}">
+                <Button x:Name="DashbordPage" Style="{DynamicResource MenuBtn}" PreviewMouseDown="DashbordPage_PreviewMouseDown">
+                    <StackPanel Orientation="Horizontal" Margin="25 0 0 0">
+                        <materialDesign:PackIcon  Kind="HomeCircle" Style="{DynamicResource MenuIcon}"/>
+                        <TextBlock Text="DashBoard" FontSize="20" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="TasksPage" Style="{DynamicResource MenuBtn}" PreviewMouseDown="TasksPage_PreviewMouseDown">
+                    <StackPanel Orientation="Horizontal" Margin="25 0 0 0">
+                        <materialDesign:PackIcon  Kind="ViewGridAdd" Style="{DynamicResource MenuIcon}"/>
+                        <TextBlock Text="Tasks" FontSize="20" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="AnalyticPage"  Style="{DynamicResource MenuBtn}" PreviewMouseDown="AnalyticPage_PreviewMouseDown">
+                    <StackPanel Orientation="Horizontal" Margin="25 0 0 0">
+                        <materialDesign:PackIcon  Kind="GoogleAnalytics" Style="{DynamicResource MenuIcon}"/>
+                        <TextBlock Text="Analytic" FontSize="20" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+
+            <Frame x:Name="MainPage" Grid.Column="1" Style="{DynamicResource FrameStyle}" NavigationUIVisibility="Hidden"/>
+        </Grid>
+
+        <StackPanel Orientation="Horizontal" Style="{DynamicResource MainStackPanel}">
+            <TextBlock Text="TaskTracker" Foreground="#A084CF" FontSize="24" FontWeight="Bold" Margin="25 5 0 0"/>
+
+            <Grid Margin="900 0 0 0" MouseDown="Notify_MouseDown">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="3*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="17*"/>
+                    <ColumnDefinition Width="13*"/>
+                </Grid.ColumnDefinitions>
+                <materialDesign:PackIcon x:Name="Notify" Kind="BellOutline" Style="{DynamicResource Icon}"  Height="40" Width="30" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+                <Ellipse x:Name="NotifyEll" Fill="Transparent" Grid.Column="1" Grid.Row="0" Margin="0 3 5 0"/>
+            </Grid>
+
+            <materialDesign:PackIcon x:Name="About" Kind="About" PreviewMouseDown="Support_PreviewMouseDown" Style="{DynamicResource Icon}" Margin="0 0 0 0" Height="40" Width="30"/>
+            <materialDesign:PackIcon x:Name="Exit" Kind="ExitToApp" PreviewMouseDown="Exit_PreviewMouseDown" Style="{DynamicResource Icon}" Height="40" Width="30"/>
+        </StackPanel>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,224 @@
+﻿<Page x:Class="TodoApp.View.Analytic"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TodoApp.View"
+      xmlns:local2="clr-namespace:TodoApp.Converter"
+      mc:Ignorable="d" 
+      d:DesignHeight="640" d:DesignWidth="980" FontFamily="Lexend"
+      Title="Analytic">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <local2:ColorConverter x:Key="ColorConverter"/>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="243*"/>
+            <ColumnDefinition Width="737*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="31*"/>
+                <RowDefinition Height="33*"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" CornerRadius="20" Background="#fff" Margin="10">
+                <Image Source="C:\AllMine\course_project\test\TodoApp\TodoApp\Resources\Images\illustrate.png" Margin="16"/>
+            </Border>
+
+            <Border Grid.Row="1" CornerRadius="20" Background="#fff" Margin="10">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="49*"/>
+                        <RowDefinition Height="176*"/>
+                        <RowDefinition Height="85*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Select the Date" FontSize="18" FontWeight="Bold" VerticalAlignment="Center" Margin="20,0,0,0" Height="22"/>
+                    <Calendar Grid.Row="1" SelectedDate="{Binding SelectedDate, Mode=TwoWay}"/>
+                    <Button Content="Show Tasks" Grid.Row="2" Margin="20 10 20 30" Command="{Binding ShowTaskOfDateCommand}">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#A084CF" />
+                                <Setter Property="BorderBrush" Value="Transparent" />
+                                <Setter Property="BorderThickness" Value="0" />
+                                <Setter Property="Foreground" Value="White" />
+                                <Setter Property="FontSize" Value="16" />
+                                <Setter Property="IsEnabled" Value="False"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="Button">
+                                            <Grid>
+                                                <Border Background="{TemplateBinding Background}"
+                             BorderBrush="{TemplateBinding BorderBrush}"
+                             BorderThickness="{TemplateBinding BorderThickness}"
+                             CornerRadius="6">
+                                                    <ContentPresenter HorizontalAlignment="Center"
+                                           VerticalAlignment="Center" />
+                                                </Border>
+                                            </Grid>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding IsDateSelected}" Value="True">
+                                        <Setter Property="IsEnabled" Value="True"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                </Grid>
+            </Border>
+
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="86*"/>
+                <RowDefinition Height="227*"/>
+                <RowDefinition Height="327*"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" CornerRadius="20" Background="#fff" Margin="10">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <TextBlock Text="Select a period to view statistics" FontSize="18" FontWeight="Bold" Margin="20 0 0 0" VerticalAlignment="Center"/>
+                    <Button Style="{StaticResource CustomAnalyticButtonStyle}" Content="Day" Width="90" Height="30" Margin="20 0 0 0" Command="{Binding DayPeriodCommand}"/>
+                    <Button Style="{StaticResource CustomAnalyticButtonStyle}" Content="Week" Width="90" Height="30" Margin="20 0 0 0" Command="{Binding WeekPeriodCommand}"/>
+                    <Button Style="{StaticResource CustomAnalyticButtonStyle}" Content="Month" Width="90" Height="30" Margin="20 0 0 0" Command="{Binding MonthPeriodCommand}"/>
+                </StackPanel>
+            </Border>
+
+            <Border Grid.Row="1" CornerRadius="20" Background="#fff" Margin="10">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="58*"/>
+                        <RowDefinition Height="149*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Margin="20,0,0,0" VerticalAlignment="Center" Orientation="Horizontal" Height="22">
+                        <TextBlock Text="Statistics for the selected period " FontSize="18" FontWeight="Bold" VerticalAlignment="Center"/>
+                        <TextBlock Text="{Binding PeriodStatistic}" FontSize="18" FontWeight="Bold" VerticalAlignment="Center" Foreground="#A084CF" TextDecorations="Underline"/>
+                    </StackPanel>
+
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackPanel Orientation="Vertical" Grid.Column="0" Margin="20">
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                <TextBlock Text="Tasks:   " FontSize="16" />
+                                <TextBlock Text="{Binding TaskStatistic}" FontSize="16" FontWeight="Bold" Foreground="#A084CF" TextDecorations="Underline"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0 20 0 10">
+                                <TextBlock Text="Completed Tasks:   " FontSize="16" />
+                                <TextBlock Text="{Binding DoneTaskStatistic}" FontSize="16" FontWeight="Bold" Foreground="#A084CF" TextDecorations="Underline"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0 10">
+                                <TextBlock Text="Uncompleted Tasks:   " FontSize="16"/>
+                                <TextBlock Text="{Binding NotDoneTaskStatistic}" FontSize="16" FontWeight="Bold" Foreground="#A084CF" TextDecorations="Underline"/>
+                            </StackPanel>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Vertical" Grid.Column="1" Margin="20">
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                <TextBlock Text="Categories:   " FontSize="16" />
+                                <TextBlock Text="{Binding CatStatistic}" FontSize="16" FontWeight="Bold" Foreground="#A084CF" TextDecorations="Underline"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0 20 0 10">
+                                <TextBlock Text="Deleted tasks:   " FontSize="16" />
+                                <TextBlock Text="{Binding TaskDeleted}" FontSize="16" FontWeight="Bold" Foreground="#A084CF" TextDecorations="Underline"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0 10">
+                                <TextBlock Text="Deleted categories:   " FontSize="16"/>
+                                <TextBlock Text="{Binding CatDeleted}" FontSize="16" FontWeight="Bold" Foreground="#A084CF" TextDecorations="Underline"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </Border>
+
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="499*"/>
+                    <ColumnDefinition Width="238*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="0" CornerRadius="20" Background="#fff" Margin="10">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="61*"/>
+                            <RowDefinition Height="246*"/>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Margin="20,0,0,0" VerticalAlignment="Center" Orientation="Horizontal" Height="21">
+                            <TextBlock Text="Tasks for the selected date " FontSize="18" FontWeight="Bold" VerticalAlignment="Center"/>
+                            <TextBlock Text="{Binding SelectedDateOfTask, StringFormat='dd.MM.yyyy'}" FontSize="18" FontWeight="Bold" VerticalAlignment="Center" Foreground="#A084CF" TextDecorations="Underline"/>
+                        </StackPanel>
+
+                        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Margin="10,10,10,10" HorizontalScrollBarVisibility="Hidden">
+                            <DockPanel Background="Transparent" HorizontalAlignment="Center">
+                                <ItemsControl ItemsSource="{Binding TaskOfDate}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Border Style="{DynamicResource TaskItemBorderStyle}">
+                                                <StackPanel Orientation="Horizontal" Width="400">
+                                                    <Ellipse Fill="{Binding CategoryId, Converter={StaticResource ColorConverter}}" Style="{DynamicResource TaskItemEllipseStyle }" Grid.Column="0" Margin="30 0 0 0"/>
+                                                    <StackPanel Orientation="Vertical" Grid.Column="1" VerticalAlignment="Center" Margin="20,10,0,10" Height="38">
+                                                        <TextBlock Text="{Binding Title}" FontSize="18"/>
+                                                        <TextBlock Text="{Binding Deadline, StringFormat='dd.MM.yyyy'}" FontSize="12" Foreground="#6D6F70"/>
+                                                    </StackPanel>
+                                                </StackPanel>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </DockPanel>
+                        </ScrollViewer>
+                    </Grid>
+                </Border>
+
+                <Border Grid.Column="1" CornerRadius="20" Background="#fff" Margin="10">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="75*"/>
+                            <RowDefinition Height="232*"/>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Margin="20,0,0,0" VerticalAlignment="Center" Orientation="Vertical" Height="44">
+                            <TextBlock Text="Data for this date " FontSize="18" FontWeight="Bold" VerticalAlignment="Center"/>
+                            <TextBlock Text="{Binding SelectedDateOfTask, StringFormat='dd.MM.yyyy'}" FontSize="18" FontWeight="Bold" VerticalAlignment="Center" Foreground="#A084CF" TextDecorations="Underline"/>
+                        </StackPanel>
+
+                        <StackPanel Grid.Row="1" Orientation="Vertical" Margin="20,20,20,20">
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                <TextBlock Text="Tasks:   " FontSize="16" FontWeight="Bold"/>
+                                <TextBlock Text="{Binding DateTask}" FontSize="16" FontWeight="Bold" Foreground="#A084CF" TextDecorations="Underline"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0 20 0 10">
+                                <TextBlock Text="Completed Tasks:   " FontSize="16" FontWeight="Bold"/>
+                                <TextBlock Text="{Binding DateDoneTask}" FontSize="16" FontWeight="Bold" Foreground="#A084CF" TextDecorations="Underline"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0 10">
+                                <TextBlock Text="Uncompleted Tasks:   " FontSize="16" FontWeight="Bold"/>
+                                <TextBlock Text="{Binding DateNotDoneTask}" FontSize="16" FontWeight="Bold" Foreground="#A084CF" TextDecorations="Underline"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0 10">
+                                <TextBlock Text="Period Tasks:   " FontSize="16" FontWeight="Bold"/>
+                                <TextBlock Text="{Binding DatePeriodTask}" FontSize="16" FontWeight="Bold" Foreground="#A084CF" TextDecorations="Underline"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

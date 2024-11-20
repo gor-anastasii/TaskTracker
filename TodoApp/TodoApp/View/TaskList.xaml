@@ -1,0 +1,145 @@
+﻿<Page x:Class="TodoApp.View.TaskList"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:TodoApp.View"
+      xmlns:local2="clr-namespace:TodoApp.Converter"
+      xmlns:sys="clr-namespace:System;assembly=mscorlib"
+      mc:Ignorable="d" 
+      d:DesignHeight="640" d:DesignWidth="980"
+      FontFamily="Lexend">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <local2:ColorConverter x:Key="ColorConverter"/>
+            <local2:DeadlineConverter x:Key="DeadlineConverter"/>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="540"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Style="{DynamicResource TaskListBorderMain}" Grid.Column="0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="13*"/>
+                    <RowDefinition Height="137*"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Background="Transparent" Orientation="Horizontal">
+                    <TextBlock Text="Tasks for Today" VerticalAlignment="Center" Margin="30 5 0 0" FontSize="18" FontWeight="Bold"/>
+                    <Button Content="{materialDesign:PackIcon Kind=Refresh, Size=28}" Command="{Binding  ResetFilterCommand}" VerticalAlignment="Center" Background="Transparent" Foreground="#A084CF" BorderThickness="0" Margin="250 5 0 0"/>
+                    <Button Content="{materialDesign:PackIcon Kind=plus}" Style="{StaticResource RoundButtonStyle}" VerticalAlignment="Center" Margin="10 5 0 0" Command="{Binding CreateTaskWinCommand}"/>
+                </StackPanel>
+
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Margin="10" HorizontalScrollBarVisibility="Hidden">
+                    <DockPanel Background="Transparent" HorizontalAlignment="Center">
+                        <ItemsControl ItemsSource="{Binding TasksDT}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border>
+                                        <Border.Style>
+                                            <Style TargetType="Border">
+                                                <Setter Property="BorderThickness" Value="1"/>
+                                                <Setter Property="CornerRadius" Value="16"/>
+                                                <Setter Property="BorderBrush" Value="#E3E3E3"/>
+                                                <Setter Property="Margin" Value="0 0 0 8"/>
+                                                <Setter Property="Background">
+                                                    <Setter.Value>
+                                                        <!-- Привязка к конвертеру с передачей значений дедлайна, IsDone и текущей даты -->
+                                                        <MultiBinding Converter="{StaticResource DeadlineConverter}">
+                                                            <Binding Path="Deadline"/>
+                                                            <Binding Path="IsDone"/>
+                                                            <Binding Source="{x:Static sys:DateTime.Today}"/>
+                                                            <!-- Текущая дата -->
+                                                        </MultiBinding>
+                                                    </Setter.Value>
+                                                </Setter>
+                                            </Style>
+                                        </Border.Style>
+                                        <Grid Height="54" Width="450">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="43*"/>
+                                                <ColumnDefinition Width="20*"/>
+                                                <ColumnDefinition Width="393*"/>
+                                                <ColumnDefinition Width="30*"/>
+                                            </Grid.ColumnDefinitions>
+
+                                            <CheckBox IsChecked="{Binding IsDone, Mode=TwoWay}" Style="{DynamicResource TaskItemCheckBoxStyle}" Command="{Binding DataContext.ChangeIsDoneCommand, RelativeSource={RelativeSource AncestorType={x:Type Page}}}" CommandParameter="{Binding Id}"/>
+                                            <Ellipse Fill="{Binding CategoryId, Converter={StaticResource ColorConverter}}" Style="{DynamicResource TaskItemEllipseStyle }"/>
+                                            <StackPanel Orientation="Vertical" Grid.Column="2" VerticalAlignment="Center" Margin="20,0,0,0" Height="38">
+                                                <TextBlock Text="{Binding Title}" FontSize="18"/>
+                                                <TextBlock Text="{Binding Deadline, StringFormat='dd.MM.yyyy'}" FontSize="12" Foreground="#6D6F70"/>
+                                            </StackPanel>
+                                            <Button Style="{DynamicResource TaskItemButtonStyle}"  Content="{materialDesign:PackIcon Kind=DotsVertical,Size=30}" Click="OpenEditTaskWindow_Click"/>
+                                        </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </DockPanel>
+                </ScrollViewer>
+            </Grid>
+        </Border>
+
+        <Border Style="{DynamicResource TaskListBorderMain}" Grid.Column="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="13*"/>
+                    <RowDefinition Height="137*"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Background="Transparent" Orientation="Horizontal">
+                    <TextBlock Text="Categories" VerticalAlignment="Center" Margin="40 5 0 0" FontSize="18" FontWeight="Bold"/>
+                    <Button Content="{materialDesign:PackIcon Kind=plus}" Style="{StaticResource RoundButtonStyle}" Command="{Binding CreateCategoryWinCommand}" VerticalAlignment="Center" Margin="210 5 0 0"/>
+                </StackPanel>
+
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Margin="10" HorizontalScrollBarVisibility="Hidden">
+                    <DockPanel Width="340">
+                        <ItemsControl ItemsSource="{Binding CategoriesDT}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border CornerRadius="16" BorderThickness="0" Margin="0 0 0 8" Background="{Binding Color}">
+                                        <Grid Height="140">
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="40*"/>
+                                                    <RowDefinition Height="37*"/>
+                                                </Grid.RowDefinitions>
+
+                                                <Grid Grid.Row="0" Margin="10">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="*"/>
+                                                        <ColumnDefinition Width="*"/>
+                                                    </Grid.ColumnDefinitions>
+
+                                                    <TextBlock Text="{Binding Title}" VerticalAlignment="Center" FontSize="18" Margin="10 0 0 0" Foreground="White" Grid.Column="0" />
+                                                    <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0 0 10 0">
+                                                            <Button Content="{materialDesign:PackIcon Kind=FilterVariant,Size=30}" Command="{Binding DataContext.FilterTasksCommand, RelativeSource={RelativeSource AncestorType={x:Type Page}}}"  CommandParameter="{Binding CategoryId}"  HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="White" BorderThickness="0" Background="Transparent" />
+                                                            <Button Content="{materialDesign:PackIcon Kind=TrashCanOutline,Size=30}" Command="{Binding DataContext.DeleteCategoryCommand, RelativeSource={RelativeSource AncestorType={x:Type Page}}}"  CommandParameter="{Binding CategoryId}" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="White" BorderThickness="0" Background="Transparent" Margin="5 0 0 0"/>
+                                                    </StackPanel>
+                                               </Grid>
+                                               <StackPanel Grid.Row="1" Margin="0 10 0 0">
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <TextBlock Text="Done: " FontSize="16" Foreground="White" Margin="20 0 0 0"/>
+                                                        <TextBlock Text="{Binding CountOfDone}" FontSize="16" Foreground="White" />
+                                                        <TextBlock Text="Tasks: " FontSize="16" Foreground="White"  Margin="30 0 0 0"/>
+                                                        <TextBlock Text="{Binding CountOfTasks}" FontSize="16" Foreground="White" />
+                                                    </StackPanel>
+                                                    <ProgressBar Value="{Binding CountOfDone}" Maximum="{Binding CountOfTasks}" Height="12" Margin="20 6" Style="{StaticResource CustomProgressBarStyle}"/>
+                                             </StackPanel>
+                                         </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </DockPanel>
+                </ScrollViewer>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

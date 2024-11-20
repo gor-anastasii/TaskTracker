@@ -1,0 +1,614 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\AllMine\\course_project\\test\\TodoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|c:\\allmine\\course_project\\test\\todoapp\\todoapp\\viewmodel\\createcategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\viewmodel\\createcategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\viewmodel\\createtaskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\viewmodel\\createtaskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\model\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\model\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\viewmodel\\dashbordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\viewmodel\\dashbordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\view\\tasklist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\view\\tasklist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\viewmodel\\notifyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\viewmodel\\notifyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\view\\edittask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\view\\edittask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\viewmodel\\analyticviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\viewmodel\\analyticviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\viewmodel\\edittaskveiwmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\viewmodel\\edittaskveiwmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\view\\edittask.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\view\\edittask.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\model\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\model\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\view\\dashbord.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\view\\dashbord.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\view\\dashbord.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\view\\dashbord.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\viewmodel\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\viewmodel\\taskviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\view\\createtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\view\\createtask.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\view\\analytic.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\view\\analytic.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\converter\\colorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\converter\\colorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\ef\\context\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\ef\\context\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\view\\createcategory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\view\\createcategory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\view\\notifywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\view\\notifywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\view\\notifywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\view\\notifywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\view\\analytic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\view\\analytic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\errormessagebox\\mymessagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\errormessagebox\\mymessagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\model\\periodtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\model\\periodtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\viewmodel\\base\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\viewmodel\\base\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\converter\\deadlineconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\converter\\deadlineconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\view\\createcategory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\view\\createcategory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\view\\tasklist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\view\\tasklist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/mytodo/True/SqlTable/dbo.Timers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\global\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\global\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|C:\\AllMine\\course_project\\test\\TodoApp\\todoapp\\view\\createtask.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{279D6B5E-0D30-4A8D-8118-63492D8709B2}|TodoApp\\TodoApp.csproj|solutionrelative:todoapp\\view\\createtask.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\Model\\Category.cs",
+              "RelativeDocumentMoniker": "TodoApp\\Model\\Category.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\Model\\Category.cs",
+              "RelativeToolTip": "TodoApp\\Model\\Category.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T13:33:03.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditTask.xaml",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\EditTask.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\View\\EditTask.xaml",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\EditTask.xaml",
+              "RelativeToolTip": "TodoApp\\View\\EditTask.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-02T20:29:13.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashbordViewModel.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ViewModel\\DashbordViewModel.cs",
+              "RelativeDocumentMoniker": "TodoApp\\ViewModel\\DashbordViewModel.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ViewModel\\DashbordViewModel.cs",
+              "RelativeToolTip": "TodoApp\\ViewModel\\DashbordViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T09:00:35.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateTaskViewModel.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ViewModel\\CreateTaskViewModel.cs",
+              "RelativeDocumentMoniker": "TodoApp\\ViewModel\\CreateTaskViewModel.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ViewModel\\CreateTaskViewModel.cs",
+              "RelativeToolTip": "TodoApp\\ViewModel\\CreateTaskViewModel.cs",
+              "ViewState": "AQIAAPYAAAAAAAAAAAAkwNYAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T09:54:20.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateCategoryViewModel.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ViewModel\\CreateCategoryViewModel.cs",
+              "RelativeDocumentMoniker": "TodoApp\\ViewModel\\CreateCategoryViewModel.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ViewModel\\CreateCategoryViewModel.cs",
+              "RelativeToolTip": "TodoApp\\ViewModel\\CreateCategoryViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvzwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T10:28:12.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditTaskVeiwModel.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ViewModel\\EditTaskVeiwModel.cs",
+              "RelativeDocumentMoniker": "TodoApp\\ViewModel\\EditTaskVeiwModel.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ViewModel\\EditTaskVeiwModel.cs",
+              "RelativeToolTip": "TodoApp\\ViewModel\\EditTaskVeiwModel.cs",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAUwKIAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T21:09:07.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotifyViewModel.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ViewModel\\NotifyViewModel.cs",
+              "RelativeDocumentMoniker": "TodoApp\\ViewModel\\NotifyViewModel.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ViewModel\\NotifyViewModel.cs",
+              "RelativeToolTip": "TodoApp\\ViewModel\\NotifyViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T14:52:15.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\Model\\Task.cs",
+              "RelativeDocumentMoniker": "TodoApp\\Model\\Task.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\Model\\Task.cs",
+              "RelativeToolTip": "TodoApp\\Model\\Task.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T13:17:26.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Timer.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\Model\\Timer.cs",
+              "RelativeDocumentMoniker": "TodoApp\\Model\\Timer.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\Model\\Timer.cs",
+              "RelativeToolTip": "TodoApp\\Model\\Timer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T10:22:40.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskList.xaml",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\TaskList.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\View\\TaskList.xaml",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\TaskList.xaml",
+              "RelativeToolTip": "TodoApp\\View\\TaskList.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-02T11:02:51.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditTask.xaml.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\EditTask.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\View\\EditTask.xaml.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\EditTask.xaml.cs",
+              "RelativeToolTip": "TodoApp\\View\\EditTask.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAkwBwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T21:01:57.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AnalyticViewModel.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ViewModel\\AnalyticViewModel.cs",
+              "RelativeDocumentMoniker": "TodoApp\\ViewModel\\AnalyticViewModel.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ViewModel\\AnalyticViewModel.cs",
+              "RelativeToolTip": "TodoApp\\ViewModel\\AnalyticViewModel.cs",
+              "ViewState": "AQIAAOwAAAAAAAAAAAAmwM8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T07:02:27.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Dashbord.xaml",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\Dashbord.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\View\\Dashbord.xaml",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\Dashbord.xaml",
+              "RelativeToolTip": "TodoApp\\View\\Dashbord.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-05T13:50:09.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Globals.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\Global\\Globals.cs",
+              "RelativeDocumentMoniker": "TodoApp\\Global\\Globals.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\Global\\Globals.cs",
+              "RelativeToolTip": "TodoApp\\Global\\Globals.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T18:47:27.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Analytic.xaml",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\Analytic.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\View\\Analytic.xaml",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\Analytic.xaml",
+              "RelativeToolTip": "TodoApp\\View\\Analytic.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-09T20:18:54.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\App.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\App.xaml",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\App.xaml",
+              "RelativeToolTip": "TodoApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T11:19:04.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NotifyWindow.xaml.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\NotifyWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\View\\NotifyWindow.xaml.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\NotifyWindow.xaml.cs",
+              "RelativeToolTip": "TodoApp\\View\\NotifyWindow.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAawBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:33:42.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DeadlineConverter.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\Converter\\DeadlineConverter.cs",
+              "RelativeDocumentMoniker": "TodoApp\\Converter\\DeadlineConverter.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\Converter\\DeadlineConverter.cs",
+              "RelativeToolTip": "TodoApp\\Converter\\DeadlineConverter.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T16:58:12.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateCategory.xaml",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\CreateCategory.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\View\\CreateCategory.xaml",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\CreateCategory.xaml",
+              "RelativeToolTip": "TodoApp\\View\\CreateCategory.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-02T10:27:00.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Dashbord.xaml.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\Dashbord.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\View\\Dashbord.xaml.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\Dashbord.xaml.cs",
+              "RelativeToolTip": "TodoApp\\View\\Dashbord.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAArwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T15:09:45.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaskViewModel.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ViewModel\\TaskViewModel.cs",
+              "RelativeDocumentMoniker": "TodoApp\\ViewModel\\TaskViewModel.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ViewModel\\TaskViewModel.cs",
+              "RelativeToolTip": "TodoApp\\ViewModel\\TaskViewModel.cs",
+              "ViewState": "AQIAALYAAAAAAAAAAAAswDwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T13:01:42.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateTask.xaml",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\CreateTask.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\View\\CreateTask.xaml",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\CreateTask.xaml",
+              "RelativeToolTip": "TodoApp\\View\\CreateTask.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-02T09:56:06.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "TodoApp\\Resources\\Styles\\Styles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-14T09:31:13.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\View\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TodoApp\\View\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAIA2wG0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T11:53:15.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\EF\\Context\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "TodoApp\\EF\\Context\\ApplicationContext.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\EF\\Context\\ApplicationContext.cs",
+              "RelativeToolTip": "TodoApp\\EF\\Context\\ApplicationContext.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAIA7wBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T13:01:17.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\View\\MainWindow.xaml",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\MainWindow.xaml",
+              "RelativeToolTip": "TodoApp\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-01T12:25:30.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NotifyWindow.xaml",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\NotifyWindow.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\View\\NotifyWindow.xaml",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\NotifyWindow.xaml",
+              "RelativeToolTip": "TodoApp\\View\\NotifyWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-12T13:56:27.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MyMessageBox.xaml",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ErrorMessageBox\\MyMessageBox.xaml",
+              "RelativeDocumentMoniker": "TodoApp\\ErrorMessageBox\\MyMessageBox.xaml",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ErrorMessageBox\\MyMessageBox.xaml",
+              "RelativeToolTip": "TodoApp\\ErrorMessageBox\\MyMessageBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-04T12:08:23.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ColorConverter.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\Converter\\ColorConverter.cs",
+              "RelativeDocumentMoniker": "TodoApp\\Converter\\ColorConverter.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\Converter\\ColorConverter.cs",
+              "RelativeToolTip": "TodoApp\\Converter\\ColorConverter.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAArwBEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T15:15:39.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Analytic.xaml.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\Analytic.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\View\\Analytic.xaml.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\Analytic.xaml.cs",
+              "RelativeToolTip": "TodoApp\\View\\Analytic.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAArwBwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T07:03:06.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "TodoApp\\AssemblyInfo.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\AssemblyInfo.cs",
+              "RelativeToolTip": "TodoApp\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T13:44:55.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PeriodTask.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\Model\\PeriodTask.cs",
+              "RelativeDocumentMoniker": "TodoApp\\Model\\PeriodTask.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\Model\\PeriodTask.cs",
+              "RelativeToolTip": "TodoApp\\Model\\PeriodTask.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T13:33:06.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ViewModel.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ViewModel\\Base\\ViewModel.cs",
+              "RelativeDocumentMoniker": "TodoApp\\ViewModel\\Base\\ViewModel.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\ViewModel\\Base\\ViewModel.cs",
+              "RelativeToolTip": "TodoApp\\ViewModel\\Base\\ViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T18:54:57.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "dbo.Timers [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/mytodo/True/SqlTable/dbo.Timers.sql",
+              "ToolTip": "dbo.Timers [\u0414\u0430\u043D\u043D\u044B\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-07T14:15:17.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CreateCategory.xaml.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\CreateCategory.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\View\\CreateCategory.xaml.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\CreateCategory.xaml.cs",
+              "RelativeToolTip": "TodoApp\\View\\CreateCategory.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA9wB0AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T10:28:19.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TaskList.xaml.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\TaskList.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\View\\TaskList.xaml.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\TaskList.xaml.cs",
+              "RelativeToolTip": "TodoApp\\View\\TaskList.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T17:05:15.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\appsettings.json",
+              "RelativeDocumentMoniker": "TodoApp\\appsettings.json",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\appsettings.json",
+              "RelativeToolTip": "TodoApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-01T13:00:54.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CreateTask.xaml.cs",
+              "DocumentMoniker": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\CreateTask.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp\\View\\CreateTask.xaml.cs",
+              "ToolTip": "C:\\AllMine\\course_project\\test\\TodoApp\\TodoApp\\View\\CreateTask.xaml.cs",
+              "RelativeToolTip": "TodoApp\\View\\CreateTask.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T09:58:38.218Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
